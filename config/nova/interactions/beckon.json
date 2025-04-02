@@ -1,0 +1,17 @@
+{
+	"name": "Позвать",
+	"description": "Позвать кого-нибудь к себе жестом.",
+	"usage": "other",
+	"category": "Miscellaneous",
+	"distance_allowed": 1,
+	"message": [
+		"%USER% рукой подзывает %TARGET% к себе."
+	],
+	"sound_use": 0,
+	"sound_possible": [
+	],
+	"sound_range": 7,
+	"interaction_requires": [
+		"self_hand"
+	]
+}

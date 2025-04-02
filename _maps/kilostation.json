@@ -1,0 +1,17 @@
+{
+	"version": 1,
+	"map_name": "KiloStation",
+	"map_path": "ark_map_files/ark_maps",
+	"map_file": "KiloStation2.dmm",
+	"shuttles": {
+		"cargo": "cargo_kilo",
+		"ferry": "ferry_kilo",
+		"whiteship": "whiteship_kilo",
+		"emergency": "emergency_kilo"
+	},
+	"job_changes": {
+		"Cook": {
+			"additional_cqc_areas": ["/area/station/service/bar", "/area/station/commons/lounge"]
+		}
+	}
+}

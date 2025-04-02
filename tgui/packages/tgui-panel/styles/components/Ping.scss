@@ -1,0 +1,28 @@
+/**
+ * Copyright (c) 2020 Aleksej Komarov
+ * SPDX-License-Identifier: MIT
+ */
+
+@use 'sass:math';
+
+$border-color: #424651 !default; // ARK STATION EDIT
+
+.Ping {
+  position: relative;
+  padding: 0.125em 0.25em;
+  border: math.div(1em, 12) solid $border-color;
+  // border-radius: 0.25em; // ARK STATION REMOVED
+  width: 3.75em;
+  text-align: right;
+}
+
+.Ping__indicator {
+  content: '';
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+  width: 0.5em;
+  height: 0.5em;
+  background-color: #8f94a3; // ARK STATION EDIT
+  border-radius: 0.25em;
+}
