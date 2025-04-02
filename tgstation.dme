@@ -9156,6 +9156,7 @@
 #include "modularz_arkstation\modules\new-watercloset-sprites\code.dm"
 #include "modularz_arkstation\modules\new-windows\code.dm"
 #include "modularz_arkstation\modules\new-wormholes\code.dm"
+#include "modularz_arkstation\modules\nomorewebbullying\web.dm"
 #include "modularz_arkstation\modules\noose\code.dm"
 #include "modularz_arkstation\modules\now-we-can-jump\code.dm"
 #include "modularz_arkstation\modules\pods\code\modules\mining\shelters.dm"
